@@ -1,0 +1,10 @@
+columns:
+  user_id:
+    not_null: true
+    unique: true
+  signup_date:
+    not_null: true
+  email:
+    unique: true
+thresholds:
+  null_warning: 0.05
